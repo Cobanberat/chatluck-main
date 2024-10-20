@@ -5,11 +5,12 @@ session_start();
 
 $name = $_POST["name"];
 $surname = $_POST["surname"];
+$number = $_POST["number"];
 $username = $_POST["username"];
 $email = $_POST["email"];
 $password = $_POST["password"];
 
-if ($name && $surname && $username && $email && $password) {
+if ($name && $number && $surname && $username && $email && $password) {
 
     $mailD = $conn->prepare(query: "SELECT * FROM kullanicilar WHERE mail = :email");
     $mailD->execute(params: ['email' => $email]);
@@ -23,13 +24,14 @@ if ($name && $surname && $username && $email && $password) {
         if (!$usernameKontrol) {
             $sifre = sha1(string: md5(string: crc32(string: sha1(string: md5(crc32($password))))));
 
-            $sorgu = $conn->prepare("INSERT INTO kullanicilar (name, surname, username, mail, password) 
-                                     VALUES (:name, :surname, :username, :mail, :password)");
+            $sorgu = $conn->prepare("INSERT INTO kullanicilar (name, surname, username, tel, mail, password) 
+                                     VALUES (:name, :surname, :username, :tel, :mail, :password)");
 
             $sorgu->execute(params: [
                 'name' => $name,
                 'surname' => $surname,
                 'username' => $username,
+                'tel' => $number,
                 'mail' => $email,
                 'password' => $sifre
             ]);

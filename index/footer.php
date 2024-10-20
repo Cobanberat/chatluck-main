@@ -4,7 +4,7 @@
             <div class="row cols-md">
                 <div class="sm-col-3">
                     <div class="logo"><a href="index.php">CH<span class="textet">@</span>TLUCK</a></div>
-                    <div class="footer-text sm-text-justify">Profix, Premium bir PSD şablonudur. Çevrimiçi mağazanız için en iyi tercih. Şimdi satın alarak keyfini çıkarın.</div>
+                    <div class="footer-text sm-text-justify">Ch@tluck, Müşterilerine Önem veren Usta Bir Teknik Servis Firmasıdır</div>
                 </div>
                 <div class="sm-col-8 sm-push-1">
                     <div class="row cols-md">

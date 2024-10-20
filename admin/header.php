@@ -7,7 +7,8 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="description" content="Responsive HTML Admin Dashboard Template based on Bootstrap 5">
   <meta name="author" content="NobleUI">
-  <meta name="keywords" content="nobleui, bootstrap, bootstrap 5, bootstrap5, admin, dashboard, template, responsive, css, sass, html, theme, front-end, ui kit, web">
+  <meta name="keywords"
+    content="nobleui, bootstrap, bootstrap 5, bootstrap5, admin, dashboard, template, responsive, css, sass, html, theme, front-end, ui kit, web">
 
   <title>CH@TLUCK</title>
 
@@ -68,7 +69,8 @@
       <li class="nav-item nav-category">İŞLEM</li>
 
       <li class="nav-item">
-        <a class="nav-link" data-bs-toggle="collapse" href="#emails" role="button" aria-expanded="false" aria-controls="emails">
+        <a class="nav-link" data-bs-toggle="collapse" href="#emails" role="button" aria-expanded="false"
+          aria-controls="emails">
           <i class="link-icon" data-feather="target"></i>
           <span class="link-title">Oyun</span>
           <i class="link-arrow" data-feather="chevron-down"></i>
@@ -90,7 +92,8 @@
 
 
       <li class="nav-item">
-        <a class="nav-link" data-bs-toggle="collapse" href="#advancedUI" role="button" aria-expanded="false" aria-controls="advancedUI">
+        <a class="nav-link" data-bs-toggle="collapse" href="#advancedUI" role="button" aria-expanded="false"
+          aria-controls="advancedUI">
           <i class="link-icon" data-feather="anchor"></i>
           <span class="link-title">Film</span>
           <i class="link-arrow" data-feather="chevron-down"></i>
@@ -113,7 +116,8 @@
 
 
       <li class="nav-item">
-        <a class="nav-link" data-bs-toggle="collapse" href="#forms" role="button" aria-expanded="false" aria-controls="forms">
+        <a class="nav-link" data-bs-toggle="collapse" href="#forms" role="button" aria-expanded="false"
+          aria-controls="forms">
           <i class="link-icon" data-feather="inbox"></i>
           <span class="link-title">Dizi</span>
           <i class="link-arrow" data-feather="chevron-down"></i>
@@ -134,51 +138,54 @@
       </li>
 
 
-        <li class="nav-item">
-          <a class="nav-link" data-bs-toggle="collapse" href="#urun" role="button" aria-expanded="false" aria-controls="urun">
-            <i class="link-icon" data-feather="book"></i>
-            <span class="link-title">ürün</span>
-            <i class="link-arrow" data-feather="chevron-down"></i>
-          </a>
-          <div class="collapse" data-bs-parent="#sidebarNav" id="urun">
-            <ul class="nav sub-menu">
-              <li class="nav-item">
-                <a href="urunaddform.php" class="nav-link">Ekle</a>
-              </li>
-              <li class="nav-item">
-                <a href="uruneditform.php" class="nav-link">Düzenle</a>
-              </li>
-              <li class="nav-item">
-                <a href="urundel.php" class="nav-link">Sil</a>
-              </li>
-            </ul>
-          </div>
-        </li>
+      <li class="nav-item">
+        <a class="nav-link" data-bs-toggle="collapse" href="#urun" role="button" aria-expanded="false"
+          aria-controls="urun">
+          <i class="link-icon" data-feather="book"></i>
+          <span class="link-title">ürün</span>
+          <i class="link-arrow" data-feather="chevron-down"></i>
+        </a>
+        <div class="collapse" data-bs-parent="#sidebarNav" id="urun">
+          <ul class="nav sub-menu">
+            <li class="nav-item">
+              <a href="urunaddform.php" class="nav-link">Ekle</a>
+            </li>
+            <li class="nav-item">
+              <a href="uruneditform.php" class="nav-link">Düzenle</a>
+            </li>
+            <li class="nav-item">
+              <a href="urundel.php" class="nav-link">Sil</a>
+            </li>
+          </ul>
+        </div>
+      </li>
 
-        <li class="nav-item">
-          <a class="nav-link" data-bs-toggle="collapse" href="#kategori" role="button" aria-expanded="false" aria-controls="kategori">
-            <i class="link-icon" data-feather="book"></i>
-            <span class="link-title">kategori</span>
-            <i class="link-arrow" data-feather="chevron-down"></i>
-          </a>
-          <div class="collapse" data-bs-parent="#sidebarNav" id="kategori">
-            <ul class="nav sub-menu">
-              <li class="nav-item">
-                <a href="kategoriaddform.php" class="nav-link">Ekle</a>
-              </li>
-              <li class="nav-item">
-                <a href="kategorieditform.php" class="nav-link">Düzenle</a>
-              </li>
-              <li class="nav-item">
-                <a href="kategoridel.php" class="nav-link">Sil</a>
-              </li>
-            </ul>
-          </div>
-        </li>
+      <li class="nav-item">
+        <a class="nav-link" data-bs-toggle="collapse" href="#kategori" role="button" aria-expanded="false"
+          aria-controls="kategori">
+          <i class="link-icon" data-feather="book"></i>
+          <span class="link-title">kategori</span>
+          <i class="link-arrow" data-feather="chevron-down"></i>
+        </a>
+        <div class="collapse" data-bs-parent="#sidebarNav" id="kategori">
+          <ul class="nav sub-menu">
+            <li class="nav-item">
+              <a href="kategoriaddform.php" class="nav-link">Ekle</a>
+            </li>
+            <li class="nav-item">
+              <a href="kategorieditform.php" class="nav-link">Düzenle</a>
+            </li>
+            <li class="nav-item">
+              <a href="kategoridel.php" class="nav-link">Sil</a>
+            </li>
+          </ul>
+        </div>
+      </li>
 
       <li class="nav-item nav-category">Teknik</li>
       <li class="nav-item">
-        <a class="nav-link" data-bs-toggle="collapse" href="#uiComponents" role="button" aria-expanded="false" aria-controls="uiComponents">
+        <a class="nav-link" data-bs-toggle="collapse" href="#uiComponents" role="button" aria-expanded="false"
+          aria-controls="uiComponents">
           <i class="link-icon" data-feather="feather"></i>
           <span class="link-title">Teknik Servis Bilgileri</span>
           <i class="link-arrow" data-feather="chevron-down"></i>
@@ -192,7 +199,8 @@
         </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link" data-bs-toggle="collapse" href="#charts" role="button" aria-expanded="false" aria-controls="charts">
+        <a class="nav-link" data-bs-toggle="collapse" href="#charts" role="button" aria-expanded="false"
+          aria-controls="charts">
           <i class="link-icon" data-feather="pie-chart"></i>
           <span class="link-title">İstatistikler</span>
           <i class="link-arrow" data-feather="chevron-down"></i>
@@ -206,7 +214,8 @@
         </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link" data-bs-toggle="collapse" href="#tables" role="button" aria-expanded="false" aria-controls="tables">
+        <a class="nav-link" data-bs-toggle="collapse" href="#tables" role="button" aria-expanded="false"
+          aria-controls="tables">
           <i class="link-icon" data-feather="layout"></i>
           <span class="link-title">Cihaz Takip</span>
           <i class="link-arrow" data-feather="chevron-down"></i>
@@ -220,7 +229,8 @@
         </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link" data-bs-toggle="collapse" href="#icons" role="button" aria-expanded="false" aria-controls="icons">
+        <a class="nav-link" data-bs-toggle="collapse" href="#icons" role="button" aria-expanded="false"
+          aria-controls="icons">
           <i class="link-icon" data-feather="smile"></i>
           <span class="link-title">Kategori</span>
           <i class="link-arrow" data-feather="chevron-down"></i>
@@ -235,7 +245,8 @@
       </li>
       <li class="nav-item nav-category">Ürün</li>
       <li class="nav-item">
-        <a class="nav-link" data-bs-toggle="collapse" href="#general-pages" role="button" aria-expanded="false" aria-controls="general-pages">
+        <a class="nav-link" data-bs-toggle="collapse" href="#general-pages" role="button" aria-expanded="false"
+          aria-controls="general-pages">
           <i class="link-icon" data-feather="book"></i>
           <span class="link-title">Listeler</span>
           <i class="link-arrow" data-feather="chevron-down"></i>
@@ -261,7 +272,8 @@
         </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link" data-bs-toggle="collapse" href="#authPages" role="button" aria-expanded="false" aria-controls="authPages">
+        <a class="nav-link" data-bs-toggle="collapse" href="#authPages" role="button" aria-expanded="false"
+          aria-controls="authPages">
           <i class="link-icon" data-feather="book"></i>
           <span class="link-title">Düzenle</span>
           <i class="link-arrow" data-feather="chevron-down"></i>
@@ -276,7 +288,8 @@
       </li>
       <li class="nav-item nav-category">Değerlendirmeler</li>
       <li class="nav-item">
-        <a class="nav-link" data-bs-toggle="collapse" href="#errorPages" role="button" aria-expanded="false" aria-controls="errorPages">
+        <a class="nav-link" data-bs-toggle="collapse" href="#errorPages" role="button" aria-expanded="false"
+          aria-controls="errorPages">
           <i class="link-icon" data-feather="book"></i>
           <span class="link-title">Yorumlar</span>
           <i class="link-arrow" data-feather="chevron-down"></i>
@@ -326,7 +339,7 @@
           </div>
         </label>
       </li>
-      <li class="nav-item dropdown">
+      <!-- <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle d-flex" href="#" id="languageDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           <img src="../assets/images/flags/us.svg" class="w-20px" title="us" alt="flag">
           <span class="ms-2 d-none d-md-inline-block">English</span>
@@ -339,6 +352,7 @@
           <a href="javascript:;" class="dropdown-item py-2 d-flex"><img src="../assets/images/flags/es.svg" class="w-20px" title="es" alt="es"> <span class="ms-2"> Spanish </span></a>
         </div>
       </li>
+
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="appsDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           <i data-feather="grid"></i>
@@ -375,6 +389,7 @@
           </div>
         </div>
       </li>
+
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="messageDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           <i data-feather="mail"></i>
@@ -451,6 +466,8 @@
           </div>
         </div>
       </li>
+
+
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="notificationDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           <i data-feather="bell"></i>
@@ -515,8 +532,11 @@
           </div>
         </div>
       </li>
+
+
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="profileDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a class="nav-link dropdown-toggle" href="#" id="profileDropdown" role="button" data-bs-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
           <img class="w-30px h-30px ms-1 rounded-circle" src="../assets/images/faces/face1.jpg" alt="profile">
         </a>
         <div class="dropdown-menu p-0" aria-labelledby="profileDropdown">
@@ -558,6 +578,7 @@
         </div>
       </li>
     </ul>
+    -->
 
     <a href="#" class="sidebar-toggler">
       <i data-feather="menu"></i>

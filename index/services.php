@@ -38,8 +38,7 @@
                                 <div class="item-title text-upper"><a href="service.html">Veri Yedekleme &amp; Kurtarma</a>
                                 </div>
                                 <div class="item-text">Teknik mükemmeliyet ve dostça bir ekip ile müşteri memnuniyetini
-                                    sağlama konusunda çalışıyoruz</div><a href="service.html"
-                                    class="btn btn-md btns-bordered text-upper pull-right">daha fazla oku</a>
+                                    sağlama konusunda çalışıyoruz</div>
                             </div>
                         </div>
                     </div>
@@ -53,8 +52,7 @@
                                 <div class="item-title text-upper"><a href="service.html">Laptop &amp; Mac Yükseltme</a>
                                 </div>
                                 <div class="item-text">Teknik mükemmeliyet ve dostça bir ekip ile müşteri memnuniyetini
-                                    sağlama konusunda çalışıyoruz</div><a href="service.html"
-                                    class="btn btn-md btns-bordered text-upper pull-right">daha fazla oku</a>
+                                    sağlama konusunda çalışıyoruz</div>
                             </div>
                         </div>
                     </div>
@@ -67,8 +65,7 @@
                             <div class="item-content">
                                 <div class="item-title text-upper"><a href="service.html">Akıllı Telefon Tamiri</a></div>
                                 <div class="item-text">Teknik mükemmeliyet ve dostça bir ekip ile müşteri memnuniyetini
-                                    sağlama konusunda çalışıyoruz</div><a href="service.html"
-                                    class="btn btn-md btns-bordered text-upper pull-right">daha fazla oku</a>
+                                    sağlama konusunda çalışıyoruz</div>
                             </div>
                         </div>
                     </div>
@@ -81,8 +78,7 @@
                             <div class="item-content">
                                 <div class="item-title text-upper"><a href="service.html">Tablet Tamiri</a></div>
                                 <div class="item-text">Teknik mükemmeliyet ve dostça bir ekip ile müşteri memnuniyetini
-                                    sağlama konusunda çalışıyoruz</div><a href="service.html"
-                                    class="btn btn-md btns-bordered text-upper pull-right">daha fazla oku</a>
+                                    sağlama konusunda çalışıyoruz</div>
                             </div>
                         </div>
                     </div>
@@ -95,8 +91,7 @@
                             <div class="item-content">
                                 <div class="item-title text-upper"><a href="service.html">PC &amp; Laptop Donanım Tamiri</a></div>
                                 <div class="item-text">Teknik mükemmeliyet ve dostça bir ekip ile müşteri memnuniyetini
-                                    sağlama konusunda çalışıyoruz</div><a href="service.html"
-                                    class="btn btn-md btns-bordered text-upper pull-right">daha fazla oku</a>
+                                    sağlama konusunda çalışıyoruz</div><
                             </div>
                         </div>
                     </div>
@@ -109,8 +104,7 @@
                             <div class="item-content">
                                 <div class="item-title text-upper"><a href="service.html">Ağ Çözümü</a></div>
                                 <div class="item-text">Teknik mükemmeliyet ve dostça bir ekip ile müşteri memnuniyetini
-                                    sağlama konusunda çalışıyoruz</div><a href="service.html"
-                                    class="btn btn-md btns-bordered text-upper pull-right">daha fazla oku</a>
+                                    sağlama konusunda çalışıyoruz</div>
                             </div>
                         </div>
                     </div>
@@ -124,8 +118,7 @@
                             <div class="item-content">
                                 <div class="item-title text-upper"><a href="service.html">Teknik Analiz</a></div>
                                 <div class="item-text">Teknik mükemmeliyet ve dostça bir ekip ile müşteri memnuniyetini
-                                    sağlama konusunda çalışıyoruz</div><a href="service.html"
-                                    class="btn btn-md btns-bordered text-upper pull-right">daha fazla oku</a>
+                                    sağlama konusunda çalışıyoruz</div>
                             </div>
                         </div>
                     </div>

@@ -59,7 +59,7 @@
                                 <div class="price-title">Dizüstü Bilgisayar Tamiri</div>
                                 <div class="price-subtext"></div>
                                 <div class="price"></div><a class="btn-md btns-bordered btn text-upper"
-                                    href="#">devamını oku</a>
+                                    href="services.php">Tüm Hizlmetler</a>
                             </div>
                         </div>
                         <div class="sm-col-6">
@@ -70,7 +70,7 @@
                                 <div class="price-title">Bilgisayar Tamiri</div>
                                 <div class="price-subtext"></div>
                                 <div class="price"></div><a class="btn-md btns-bordered btn text-upper"
-                                    href="#">Devamını Oku</a>
+                                    href="services.php">Tüm Hizlmetler</a>
                             </div>
                         </div>
                     </div>
@@ -85,7 +85,7 @@
                                 <div class="price-title">Yazıcı Tamiri</div>
                                 <div class="price-subtext"></div>
                                 <div class="price"></div><a class="btn-md btns-bordered btn text-upper"
-                                    href="#">Devamını Oku</a>
+                                    href="services.php">Tüm Hizlmetler</a>
                             </div>
                         </div>
                         <div class="sm-col-6">
@@ -96,7 +96,7 @@
                                 <div class="price-title">Akıllı Telefon Tamiri</div>
                                 <div class="price-subtext"></div>
                                 <div class="price"></div><a class="btn-md btns-bordered btn text-upper"
-                                    href="#">Devamını Oku</a>
+                                    href="services.php">Tüm Hizlmetler</a>
                             </div>
                         </div>
                     </div>
@@ -189,7 +189,7 @@
                     <div class="item-content">
                         <div class="item-title text-upper"><a href="service.html">Veri Kurtarma &amp; İYİLEŞTİRME</a></div>
                         <div class="item-text">Veri güvenliği ve kurtarma süreçlerinde gösterdiğimiz titizlikle, her zaman en yüksek müşteri memnuniyetini sağlamaya çalışıyoruz.</div><a href="service.html"
-                            class="btn btn-md btns-bordered pull-right text-upper">Devamını Oku</a>
+                            class="btn btn-md btns-bordered pull-right text-upper">Devamını Gör</a>
                     </div>
                 </div>
             </div>
@@ -202,7 +202,7 @@
                     <div class="item-content">
                         <div class="item-title text-upper"><a href="service.html">Laptop &amp; PC Yükseltme</a></div>
                         <div class="item-text">En son teknolojilerle donattığımız yükseltme hizmetlerimiz kullanıcı deneyiminizi bir üst seviyeye taşımayı hedefliyor.</div><a href="service.html"
-                            class="btn btn-md btns-bordered pull-right text-upper">Devamını Oku</a>
+                            class="btn btn-md btns-bordered pull-right text-upper">Devamını Gör</a>
                     </div>
                 </div>
             </div>
@@ -215,7 +215,7 @@
                     <div class="item-content">
                         <div class="item-title text-upper"><a href="service.html">Akıllı Telefonu Onarımı</a></div>
                         <div class="item-text">Telefon onarımında hızlı ve güvenilir çözümler sunarak müşteri memnuniyetini en üst düzeyde tutuyoruz.</div><a href="service.html"
-                            class="btn btn-md btns-bordered pull-right text-upper">Devamını Oku</a>
+                            class="btn btn-md btns-bordered pull-right text-upper">Devamını Gör</a>
                     </div>
                 </div>
             </div>
@@ -228,7 +228,7 @@
                     <div class="item-content">
                         <div class="item-title text-upper"><a href="service.html">Tablet Onarımı</a></div>
                         <div class="item-text">Tablet onarım hizmetlerimizde, kalite ve müşteri memnuniyetini ön planda tutuyoruz.</div><a href="service.html"
-                            class="btn btn-md btns-bordered pull-right text-upper">Devamını Oku</a>
+                            class="btn btn-md btns-bordered pull-right text-upper">Devamını Gör</a>
                     </div>
                 </div>
             </div>
@@ -241,7 +241,7 @@
                     <div class="item-content">
                         <div class="item-title text-upper"><a href="service.html">Bilgisayar &amp; Laptop Onarımı</a></div>
                         <div class="item-text">Bilgisayar ve laptop onarımında en iyi hizmeti sunarak, müşterilerimizin güvenini kazanıyoruz.</div><a href="service.html"
-                            class="btn btn-md btns-bordered pull-right text-upper">Devamını Oku</a>
+                            class="btn btn-md btns-bordered pull-right text-upper">Devamını Gör</a>
                     </div>
                 </div>
             </div>
@@ -254,7 +254,7 @@
                     <div class="item-content">
                         <div class="item-title text-upper"><a href="service.html">CD, DVD, Müzik, Film, Dizi ve Oyun</a></div>
                         <div class="item-text">CD DVD ve dijital medya hizmetlerimizde müşterilerimize kaliteli ve güvenilir çözümler sunuyoruz.</div><a href="service.html"
-                            class="btn btn-md btns-bordered pull-right text-upper">Devamını Oku</a>
+                            class="btn btn-md btns-bordered pull-right text-upper">Devamını Gör</a>
                     </div>
                 </div>
             </div>
@@ -265,7 +265,7 @@
                     aria-hidden="true"></i>&nbsp;&nbsp;TÜM HİZMETLERİMİZ</a></div>
     </div>
 </section>
-<section class="main-bg decorated-bg text-center tight solid-section">
+<!--- <section class="main-bg decorated-bg text-center tight solid-section">
     <div class="container">
         <div class="row cols-md rows-xl" data-inview-showup="showup-translate-up">
             <div class="sm-col-3">
@@ -296,7 +296,8 @@
         </div>
     </div>
 </section>
-<section class="content-section">
+--->
+<!-- <section class="content-section">
     <div class="container">
         <div class="section-head text-center container-md">
             <h2 class="section-title text-upper text-lg" data-inview-showup="showup-translate-right">İnsanlar Ne Diyor?</h2>
@@ -378,7 +379,7 @@
         </div>
     </div>
 </section>
-
+--->
 <section class="main-bg" data-inview-showup="showup-translate-up">
     <div class="container">
         <div class="contact-table only-xs-text-center">

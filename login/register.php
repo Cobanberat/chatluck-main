@@ -38,7 +38,7 @@
                 </div>
                 <div class="col-md-8 ps-md-0">
                   <div class="auth-form-wrapper px-4 py-5">
-                    <a href="#" class="nobleui-logo d-block mb-2">CH<span>@</span>TLUCK</a>
+                    <a href="../index/index.php" class="nobleui-logo d-block mb-2">CH<span>@</span>TLUCK</a>
                     <h5 class="text-secondary fw-normal mb-4">Hoşgeldin! Ücretsiz Kayıt Ol</h5>
                     <form class="forms-sample" id="registrationForm" action="../form/register.php" method="post">
                       <div class="mb-3">
@@ -57,6 +57,10 @@
                       <div class="mb-3">
                         <label for="email" class="form-label">Email Adresi</label>
                         <input type="email" class="form-control" id="email" name="email" placeholder="Email">
+                      </div>
+                      <div class="mb-3">
+                        <label for="email" class="form-label">Telefon Numarası</label>
+                        <input type="Number" class="form-control" id="number" name="number" placeholder="Tel">
                       </div>
                       <div class="mb-3">
                         <label for="password" class="form-label">Şifre</label>

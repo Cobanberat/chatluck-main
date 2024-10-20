@@ -1,4 +1,5 @@
 <?php include "header.php"; ?>
+<?php include "../connect/db.php"; ?>
 <nav class="page-breadcrumb">
     <ol class="breadcrumb">
         <li class="breadcrumb-item"><a href="#">Listeler</a></li>
@@ -11,28 +12,38 @@
         <div class="card">
             <div class="card-body">
                 <h6 class="card-title">Kullanıcılar</h6>
-                <p class="text-secondary mb-3">Read the <a href="https://datatables.net/" target="_blank"> Official DataTables Documentation </a>for a full list of instructions and other options.</p>
                 <div class="table-responsive">
                     <table id="dataTableExample" class="table">
                         <thead>
                             <tr>
+                                <th>id</th>
                                 <th>Name</th>
-                                <th>Position</th>
-                                <th>Office</th>
-                                <th>Age</th>
-                                <th>Start date</th>
-                                <th>Salary</th>
+                                <th>surname</th>
+                                <th>mail</th>
+                                <th>username</th>
+                                <th>durum</th>
+                                <th>kayıt Tarihi</th>
+                                
                             </tr>
                         </thead>
                         <tbody>
+                            <?php foreach($kullanicilar as $row): ?>
                             <tr>
-                                <td>Tiger Nixon</td>
-                                <td>System Architect</td>
-                                <td>Edinburgh</td>
-                                <td>61</td>
-                                <td>2011/04/25</td>
-                                <td>$320,800</td>
+                                <td><?= $row["id"] ?></td>
+                                <td><?= $row["name"] ?></td>
+                                <td><?= $row["surname"] ?></td>
+                                <td><?= $row["mail"] ?></td>
+                                <td><?= $row["username"] ?></td>
+                                <td>
+                                    <?php if($row["durum"] == 1){?>
+                                        admin
+                                   <?php  }else{ ?>
+                                        kullanıcı
+                                   <?php } ?>
+                                </td>
+                                <td><?= $row["created_at"] ?></td>
                             </tr>
+                            <?php endforeach; ?>
                         </tbody>
                     </table>
                 </div>

@@ -56,7 +56,7 @@
                 </div>
                 <div class="col-md-8 ps-md-0">
                   <div class="auth-form-wrapper px-4 py-5">
-                    <a href="#" class="nobleui-logo d-block mb-2">CH<span>@</span>TLUCK</a>
+                    <a href="../index/index.php" class="nobleui-logo d-block mb-2">CH<span>@</span>TLUCK</a>
                     <h5 class="text-secondary fw-normal mb-4">Tekrar Hoşgeldin! Hesabınıza Giriş Yapın</h5>
                     <form class="forms-sample" id="registrationForm" action="../form/login.php" method="post">
                       <div class="mb-3">
