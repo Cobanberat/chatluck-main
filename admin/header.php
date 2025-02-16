@@ -48,7 +48,7 @@
 
 <nav class="sidebar">
   <div class="sidebar-header">
-    <a href="#" class="sidebar-brand">
+    <a href="../index/index.php" class="sidebar-brand">
       CH<span>@</span>TLUCK
     </a>
     <div class="sidebar-toggler">

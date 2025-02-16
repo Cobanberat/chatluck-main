@@ -13,7 +13,7 @@
       message: text,
       position: 'topRight',
       backgroundColor: durum === "true" ? '#015701' : '#830000',
-      theme: 'light'
+      theme: 'dark',
     });
 
     <?php unset($_SESSION['message']); ?>
