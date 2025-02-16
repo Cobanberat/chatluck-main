@@ -263,7 +263,7 @@ function kategoriListele($conn, $ust_id = 0, $seviye = 0) {
 
 
         </section>
-    </div>
+    </div>s
 
     <aside class="page-sidebar content-section">
         <section class="side-content-section" data-inview-showup="showup-translate-up">
