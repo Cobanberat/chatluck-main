@@ -395,7 +395,7 @@
 </section>
 
 <section class="map-section" data-inview-showup="showup-translate-right">
-        <div id="gmap" class="gmap"></div>
+<iframe class="gmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3148.742436261081!2d32.466390276169385!3d37.88970570553082!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d08507d19f42e1%3A0xf756aba18d25a985!2sCh%40tluck%20dvd%20bilgisayar%20tamiri!5e0!3m2!1str!2str!4v1739696057030!5m2!1str!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         <div class="info-wrap">
             <div class="info-container">
                 <div class="our-info side main-bg">
@@ -440,13 +440,6 @@
     <div class="loader-back alt-bg"></div>
     <div class="loader-image"><img class="image" src="assets/images/parts/loader.gif" alt=""></div>
 </div>
-<script>
-        document.addEventListener("DOMContentLoaded", function() {
-            var map = new atlas.Map('gmap', {
-                center: [32.489180, 37.871608], 
-                zoom: 15
-            });
-        });
-    </script>
+
 </style>
 <?php include "footer.php" ?>

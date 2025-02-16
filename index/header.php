@@ -10,7 +10,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
-    <title>ProFix - Bilgisayar & Mobil Telefon Tamir Servisi</title>
+    <title>CH@TLUCK - Bilgisayar & Mobil Telefon Tamir Servisi</title>
     <link href="assets/animate.css/animate.min.css" rel="stylesheet" type="text/css">
     <link href="assets/fontawesome/css/all.min.css" rel="stylesheet" type="text/css">
     <link href="../css?family=Raleway:400,500,600,700" rel="stylesheet">

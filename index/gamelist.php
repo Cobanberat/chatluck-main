@@ -86,13 +86,12 @@ $oyunlar = $stmt->fetchAll(PDO::FETCH_ASSOC);
                     <div class="md-col-6">
                         <div class="item shop-item shop-item-simple" data-inview-showup="showup-scale">
                             <div class="item-back"></div>
-                            <a href="shop-item.html?id=<?= $oyun['id'] ?>" class="item-image responsive-1by1">
+                            <a href="" class="item-image responsive-1by1">
                                 <img src="../admin/resimler/<?= htmlspecialchars($oyun['img']) ?>" alt="<?= htmlspecialchars($oyun['name']) ?>">
                             </a>
                             <div class="item-content shift-md">
                                 <div class="item-textes">
                                     <div class="item-title text-upper">
-                                        <a href="shop-item.html?id=<?= $oyun['id'] ?>" class="content-link"><?= htmlspecialchars($oyun['name']) ?></a>
                                     </div>
                                     <div class="item-categories">
                                         <span><?= htmlspecialchars($oyun['tur']) ?></span>

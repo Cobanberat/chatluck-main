@@ -73,33 +73,65 @@ $stmt->execute();
 $urunler = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 // Kategorileri hiyerarşik olarak almak için fonksiyon
-function getAllChildCategories($conn, $categoryId)
-{
+
+// Alt kategorileri bulma fonksiyonu (recursive)
+function getAllChildCategories($conn, $categoryId) {
     $childCategories = [];
     $query = "SELECT id FROM parent WHERE ust = :category_id";
     $stmt = $conn->prepare($query);
     $stmt->bindValue(':category_id', $categoryId, PDO::PARAM_INT);
     $stmt->execute();
     $result = $stmt->fetchAll(PDO::FETCH_ASSOC);
-    
+
     foreach ($result as $row) {
         $childCategories[] = $row['id'];
-        $childCategories = array_merge($childCategories, getAllChildCategories($conn, $row['id'])); // Alt kategorileri de al
+        $childCategories = array_merge($childCategories, getAllChildCategories($conn, $row['id']));
     }
 
     return $childCategories;
 }
 
-function kategoriListele($conn, $ust_id = 0, $seviye = 0)
-{
+// Üst kategorileri bulma fonksiyonu (recursive)
+function getParentCategories($conn, $categoryId) {
+    $parentCategories = [];
+    while ($categoryId) {
+        $query = $conn->prepare("SELECT ust FROM parent WHERE id = ?");
+        $query->execute([$categoryId]);
+        $result = $query->fetch(PDO::FETCH_ASSOC);
+        if ($result && $result['ust']) {
+            $parentCategories[] = $result['ust'];
+            $categoryId = $result['ust'];
+        } else {
+            break;
+        }
+    }
+    return $parentCategories;
+}
+
+// Kategorileri listeleme fonksiyonu
+function kategoriListele($conn, $ust_id = 0, $seviye = 0) {
     $query = "SELECT id, name FROM parent WHERE ust = :ust_id";
     $stmt = $conn->prepare($query);
     $stmt->execute(['ust_id' => $ust_id]);
 
     $kategoriler = $stmt->fetchAll(PDO::FETCH_ASSOC);
+    $currentCategoryId = isset($_GET['category_id']) ? $_GET['category_id'] : null;
+
+    // Açık kalması gereken tüm kategorileri bul (seçili kategori + alt ve üst kategorileri)
+    $openCategories = [];
+    if ($currentCategoryId) {
+        $openCategories = array_merge(
+            getParentCategories($conn, $currentCategoryId),
+            getAllChildCategories($conn, $currentCategoryId),
+            [$currentCategoryId]
+        );
+    }
+
     if (count($kategoriler) > 0) {
         foreach ($kategoriler as $kategori) {
-            echo '<li>
+            $isActive = in_array($kategori["id"], $openCategories) ? ' active' : '';
+
+            echo '<li class="category-item' . $isActive . '">
                     <span class="category-line">
                         <a class="content-link" href="shop-category.php?category_id=' . $kategori["id"] . '">
                             <span class="single-line-text">' . str_repeat("-", $seviye) . ' ' . $kategori["name"] . '</span>
@@ -110,7 +142,7 @@ function kategoriListele($conn, $ust_id = 0, $seviye = 0)
                         </a>
                     </span>';
 
-            echo '<ul class="sub-categories-list">';
+            echo '<ul class="sub-categories-list" ' . ($isActive ? 'style="display:block;"' : '') . '>';
             kategoriListele($conn, $kategori['id'], $seviye + 1);
             echo '</ul>';
 
@@ -118,6 +150,8 @@ function kategoriListele($conn, $ust_id = 0, $seviye = 0)
         }
     }
 }
+
+
 ?>
 
 
@@ -187,7 +221,7 @@ function kategoriListele($conn, $ust_id = 0, $seviye = 0)
                             <div class="item shop-item shop-item-simple" data-inview-showup="showup-scale">
                                 <div class="item-back"></div>
                                 <a href="shop-item.php?id=' . $urun["urun_id"] . '" class="item-image responsive-1by1">
-                                    <img src="../admin/resimler/' . $urun["img"] . '" alt="Ürün Resmi">
+                                    <img class="p-5" src="../admin/resimler/' . $urun["img"] . '" alt="Ürün Resmi">
                                 </a>
                                 <div class="item-content shift-md">
                                     <div class="item-textes">
@@ -243,6 +277,23 @@ function kategoriListele($conn, $ust_id = 0, $seviye = 0)
 
 <?php include "footer.php"; ?>
 <style>
+.category-item {
+    list-style: none;
+}
+
+.category-item .sub-categories-list {
+    display: none;
+}
+
+.category-item.active .sub-categories-list {
+    display: block !important;
+}
+
+/* Seçili kategoriye mavi renk verelim */
+.category-item.active > .category-line > .content-link {
+    font-weight: bold;
+    color: #007bff; /* Bootstrap'in mavi tonu */
+}
 
     
 </style> 
