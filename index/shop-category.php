@@ -269,7 +269,7 @@ function kategoriListele($conn, $ust_id = 0, $seviye = 0) {
         <section class="side-content-section" data-inview-showup="showup-translate-up">
             <h5 class="shift-sm offs-md">Ürün Kategorisi</h5>
             <ul class="categories-list text-medium solid-color">
-                <?php kategoriListele($conn); ?>
+                <?php kategoriListele($conn); ?>s
             </ul>
         </section>
     </aside>
